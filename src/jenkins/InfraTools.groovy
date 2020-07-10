@@ -2,7 +2,7 @@ def checkoutRepo(){
 
 	stage('Checkout Repo') {
 		checkout([$class: 'GitSCM', 
-        branches: [[name: '*/vinu_python']], 
+        branches: [[name: '*/testing_python']], 
         doGenerateSubmoduleConfigurations: false, 
         extensions: [], 
         submoduleCfg: [], 
