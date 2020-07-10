@@ -20,7 +20,7 @@ def parameter(){
         $class: 'JiraProjectProperty'
     ], 
     
-   
+    parameters([
         
         [
             $class: 'ExtensibleChoiceParameterDefinition',
